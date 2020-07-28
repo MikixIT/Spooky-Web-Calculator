@@ -59,8 +59,10 @@ body
 }
 .calculator span.equal{
     grid-row: span 2;
-    height:100px ;
-    background:#74ff3b
+    height:120px ;
+    background:#74ff3b;
+    position: relative; top: -40px;
+    
 }
 
 
