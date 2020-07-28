@@ -15,6 +15,7 @@ body
     min-height: 100vh;
     background:url(https://images4.alphacoders.com/176/176418.jpg);
 }
+
 .calculator
 {
     position: relative;
@@ -32,6 +33,7 @@ body
 }
 .calculator span
 {
+    font-size: 50px;
     display: grid;
     width: 80px;
     height: 80px;
@@ -46,3 +48,19 @@ body
     color: #111;
 
 }
+.calculator span.clear {
+    grid-column: span 2;
+    width: 160px;
+    background: orangered;
+}
+.calculator span.plus{
+    grid-row: span 2;
+    height:120px ;
+}
+.calculator span.equal{
+    grid-row: span 2;
+    height:100px ;
+    background:#74ff3b
+}
+
+
